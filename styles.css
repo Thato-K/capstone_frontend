@@ -68,7 +68,7 @@ nav {
    height: 2;
 } */
 
-.loginSection,.modelSection {
+.loginSection,.modelSection,.mapSection {
     display: flex;
     text-align: center;
     justify-content: center;
