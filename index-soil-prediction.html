@@ -46,58 +46,69 @@
     </div>
 
     
-    <div>
+    <div class="container text-center">
         <h2>Input Coordinates</h2>
         <div class="row">
-            <div class="col-md-6">
-                <label>Latitude:</label>
-                <input type="text" class="form-control">
+            <div class="col-md-3 mb-2">
+                <div class="text-center">
+                    <label>Latitude:</label>
+                    <input type="number" class="form-control">
+                </div>
             </div>
-            <div class="col-md-6">
-            <label>Longitude:</label>
-            <input type="text" class="form-control">
+            <div class="col-md-3 mb-2">
+                <div class="text-center">
+                    <label>Longitude:</label>
+                    <input type="number" class="form-control">
+                </div>
             </div>
-    
-        <button class="CoordinatesButton">Submit Coordinates</button> 
+        </div>
+        <div>
+            <button type="button" class="CoordinatesButton btn btn-secondary mt-3">Submit Coordinates</button>
         </div>
     </div>
+    
     
     <hr>
 
     <div>
-        <h2>Heavy Metal Concetrations</h2>
-    
-        <div>
-            <label>Cadmium(Cd):</label>
-            <input type="number">
-            
-            <label>Chromium(Cr):</label>
-            <input type="number">
-            
-            <label>Nickel(Ni):</label>
-            <input type="number">
-            
-            <label>Lead(Pb):</label>
-            <input type="number">  
+        <h2>Heavy Metal Concentrations</h2>
+        <div class="row">
+            <div class="col-md-3 mx-auto">
+                <label for="cadmium">Cadmium(Cd):</label>
+                <input type="number" class="form-control" id="cadmium">
+            </div>
+            <div class="col-md-3 mx-auto">
+                <label for="chromium">Chromium(Cr):</label>
+                <input type="number" class="form-control" id="chromium">
+            </div>
+            <div class="col-md-3 mx-auto">
+                <label for="nickel">Nickel(Ni):</label>
+                <input type="number" class="form-control" id="nickel">
+            </div>
+            <div class="col-md-3 mx-auto">
+                <label for="lead">Lead(Pb):</label>
+                <input type="number" class="form-control" id="lead">
+            </div>
         </div>
-            
-
-            <br>
     
-            <label>Zinc(Zn):</label>
-            <input type="number">
+        <br>
     
-            <label>Copper(Cu):</label>
-            <input type="number">
-    
-            <label>Cobalt(Co):</label>
-            <input type="number">
-
-            <br>
-
-            <button class="ConcentrationsButton">Submit Concentrations</button>
+        <div class="row">
+            <div class="col-md-3 mx-auto">
+                <label for="zinc">Zinc(Zn):</label>
+                <input type="number" class="form-control" id="zinc">
+            </div>
+            <div class="col-md-3 mx-auto">
+                <label for="copper">Copper(Cu):</label>
+                <input type="number" class="form-control" id="copper">
+            </div>
+            <div class="col-md-3 mx-auto">
+                <label for="cobalt">Cobalt(Co):</label>
+                <input type="number" class="form-control" id="cobalt">
+            </div>
+        </div>
     </div>
-
+    
     <!-- <table>
         <thead>
             <tr>
@@ -119,8 +130,8 @@
 <h3>Choose Model</h3>
 
 <div class="modelSection">
-    <button class="modelButton">Randon Forest</button>
-    <button class="modelButton">ANN</button>
+    <button type="button" class="modelButton btn btn-light btn-lg">Random Forest</button>
+    <button type="button" class="modelButton btn btn-light btn-lg">ANN</button>
 </div> 
 
 <hr>
