@@ -84,7 +84,7 @@ nav {
     border: 0px;
 }
 
-.loginButton {
+.btn {
     display: center;
     font-weight: bold;
     font-style:unset;
@@ -94,7 +94,7 @@ nav {
     padding: 10px 20px;
 }
 
-.loginButton:hover, .modelButton:hover {
+.btn:hover, .modelButton:hover {
     background-color: peachpuff;
 }
 
